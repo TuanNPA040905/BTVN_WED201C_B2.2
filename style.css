@@ -1,10 +1,12 @@
 .nav {
+  background-color: aquamarine;
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
   list-style: none;
   gap: 50px;
   padding: 0;
   margin: 20px 0;
+  margin-bottom: 50px;
 }
 
 .nav li {
@@ -14,9 +16,10 @@
 
 .nav a {
   text-decoration: none;
-  color: blue; /* hoặc màu bạn muốn */
+  color: rgb(64, 0, 255); /* hoặc màu bạn muốn */
   font-weight: bold;
   margin: 0 20px; /* căn đều khoảng cách giữa các mục */
+  cursor: pointer;
 }
 
 .nav a:hover {
@@ -63,4 +66,11 @@
 
 .nav li {
   font-size: 25px;
+}
+
+.header h1 {
+  background: linear-gradient(270deg, #ff6ec4, #7873f5, #1fd1f9);
+  display: flex;
+  justify-content: center;
+  color: rgb(0, 255, 38);
 }
